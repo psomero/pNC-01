@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Encoder_Maxon_DCX
+D Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP SW_SPST_PWD_LAMP
+D Single Pole Single Throw (SPST) switch with signal lamp, generic
+K switch SPST LED OFF-ON lamp
+F ~
+$ENDCMP
+#
+#End Doc Library
