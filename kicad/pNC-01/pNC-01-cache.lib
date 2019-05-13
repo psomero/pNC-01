@@ -170,6 +170,42 @@ X ~ 8 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# encoder_maxon_dcx_Encoder_Maxon_DCX
+#
+DEF encoder_maxon_dcx_Encoder_Maxon_DCX J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "encoder_maxon_dcx_Encoder_Maxon_DCX" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -65 -50 -45 55 0 1 0 N
+S -55 250 150 -250 1 1 10 f
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X I 10_I 300 -200 157 L 31 31 1 1 O
+X NC 1_NC -200 200 157 R 31 31 1 1 N
+X Vcc 2_Vcc 300 200 157 L 31 31 1 1 W
+X GND 3_GND -200 100 157 R 31 31 1 1 P
+X NC 4_NC 300 100 157 L 31 31 1 1 N
+X A\ 5_A\ -200 0 157 R 31 31 1 1 O
+X A 6_A 300 0 157 L 31 31 1 1 O
+X B\ 7_B\ -200 -100 157 R 31 31 1 1 O
+X B 8_B 300 -100 157 L 31 31 1 1 O
+X I\ 9_I\ -200 -200 157 R 31 31 1 1 O
+ENDDRAW
+ENDDEF
+#
 # encoder_maxon_dcx_SW_SPST_PWD_LAMP
 #
 DEF encoder_maxon_dcx_SW_SPST_PWD_LAMP SW 0 40 Y Y 1 F N
